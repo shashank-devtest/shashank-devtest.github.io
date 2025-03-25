@@ -8,13 +8,13 @@ const camera = new THREE.PerspectiveCamera(
     0.1,
     1000
 );
-camera.position.z = 13;
+camera.position.z = 35;
 
 const scene = new THREE.Scene();
 let bee;
 let mixer;
 const loader = new GLTFLoader();
-loader.load('/demon_bee_full_texture.glb',
+loader.load('/butter_flying.glb',
     function (gltf) {
         bee = gltf.scene;
         scene.add(bee);

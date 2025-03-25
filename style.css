@@ -149,6 +149,16 @@ header .content-fit nav ul{
     z-index: 100;
     pointer-events: none;
 }
+#BTN{
+    border-radius: 10px 20px;
+    padding: 10px 20px;
+    background-color:  #d1ff48;
+    box-shadow: #d7d5d5;
+   
+}
+#BTN:hover{
+    background-color: #8fe526;
+}
 @media screen and (max-width: 1023px){
     #banner .title {
         font-size: 5em;
